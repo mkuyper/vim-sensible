@@ -92,4 +92,6 @@ endif
 
 inoremap <C-U> <C-G>u<C-U>
 
+set modeline
+
 " vim:set ft=vim et sw=2:
