@@ -5,6 +5,7 @@ set modeline
 set title
 
 set shiftwidth=4
+set expandtab
 
 " Disable comment line continuation
 au BufNewFile,BufRead * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
