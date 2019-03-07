@@ -9,3 +9,6 @@ set expandtab
 
 " Disable comment line continuation
 au BufNewFile,BufRead * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" ZFW files are ZIP
+au BufReadCmd *.zfw call zip#Browse(expand("<amatch>"))
